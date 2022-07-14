@@ -1,12 +1,12 @@
 hduser@bmsce-Precision-T1700:~$ hdfs dfs -put /home/hduser/Desktop/DeptName.txt /cse/dname.txt
 hduser@bmsce-Precision-T1700:~$ hdfs dfs -put /home/hduser/Desktop/DeptStrength.txt /cse/dstrength.txt
-hduser@bmsce-Precision-T1700:~$ hadoop jar /home/hduser/Desktop/MapReduceJoin.jar JoinDriver /cse/dname.txt /cse/dstrength.txt /out_1bm20cs414
+hduser@bmsce-Precision-T1700:~$ hadoop jar /home/hduser/Desktop/MapReduceJoin.jar JoinDriver /cse/dname.txt /cse/dstrength.txt /out_1BM20CS417
 Usage: <Department Emp Strength input> <Department Name input> <output>
-hduser@bmsce-Precision-T1700:~$ hdfs dfs -cat /out_1bm2cs414/*
-cat: `/out_1bm2cs414/*': No such file or directory
+hduser@bmsce-Precision-T1700:~$ hdfs dfs -cat /out_1BM20CS417/*
+cat: `/out_1BM20CS417/*': No such file or directory
 hduser@bmsce-Precision-T1700:~$ hdfs dfs -cat /out_1bm20cs414/*
-cat: `/out_1bm20cs414/*': No such file or directory
-hduser@bmsce-Precision-T1700:~$ hadoop jar /home/hduser/Desktop/MapReduceJoin.jar /cse/dname.txt /cse/dstrength.txt /out_1bm20cs414
+cat: `/out_1BM20CS417/*': No such file or directory
+hduser@bmsce-Precision-T1700:~$ hadoop jar /home/hduser/Desktop/MapReduceJoin.jar /cse/dname.txt /cse/dstrength.txt /out_1BM20CS417
 22/06/25 10:49:14 INFO Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
 22/06/25 10:49:14 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
 22/06/25 10:49:14 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
@@ -138,7 +138,7 @@ hduser@bmsce-Precision-T1700:~$ hadoop jar /home/hduser/Desktop/MapReduceJoin.ja
 		Bytes Read=0
 	File Output Format Counters 
 		Bytes Written=85
-hduser@bmsce-Precision-T1700:~$ hdfs dfs -cat /out_1bm20cs414/*
+hduser@bmsce-Precision-T1700:~$ hdfs dfs -cat /out_1BM20CS417/*
 A11	Finance		50
 B12	HR		100
 C13	Manufacturing		250
