@@ -1,0 +1,8 @@
+package Name
+
+object hello {
+  def main(arcs:Array[String])
+  {
+    println("Vedhavathi N L")
+  }
+}
